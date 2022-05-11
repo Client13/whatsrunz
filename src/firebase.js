@@ -11,15 +11,16 @@ import "firebase/firestore";
 //     appId: "1:1027981883218:web:f62f32ffe8e5701f0f2c8b",
 //     measurementId: "G-0YMF5ZZL8N"
 //   };
+
 const firebaseConfig = {
-  apiKey: "AIzaSyD3c-g9buyeJnYZ-6_1NDZ8TQz1n4fhKn4",
-  authDomain: "whatsapp-73989.firebaseapp.com",
-  databaseURL: "https://whatsapp-73989.firebaseio.com",
-  projectId: "whatsapp-73989",
-  storageBucket: "whatsapp-73989.appspot.com",
-  messagingSenderId: "166827944927",
-  appId: "1:166827944927:web:28451dca14499bc919326a",
-  measurementId: "G-E7CXYXDVYG",
+  apiKey: "AIzaSyD6bpqIq3oMdwDHyPUzVTbPnXy1spHd4Sk",
+  authDomain: "spectre-312808.firebaseapp.com",
+  databaseURL: "https://spectre-312808-default-rtdb.firebaseio.com",
+  projectId: "spectre-312808",
+  storageBucket: "spectre-312808.appspot.com",
+  messagingSenderId: "753508949887",
+  appId: "1:753508949887:web:39ec8c27b2a24d076c844a",
+  measurementId: "G-MPHHKBK013"
 };
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
